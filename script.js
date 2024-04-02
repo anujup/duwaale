@@ -1,4 +1,6 @@
+
 var dropdown = document.getElementsByClassName("fa-caret-down")
+
 for (let index = 0; index < dropdown.length; index++) {
     let toggle = false
     dropdown[index].addEventListener("click", function(dets){
@@ -21,6 +23,12 @@ for (let index = 0; index < dropdown.length; index++) {
 var menuToggle = document.querySelector('.fa-bars')
 var navlinks  = document.querySelector('.links')
 var showing = false
+
+function myFunction() {
+    navlinks.classList.toggle("showmenu")
+    menuToggle.className = menuToggle.className.replace("fa-close", "fa-bars")
+    showing = false
+}
 menuToggle.addEventListener("click", function(){
     navlinks.classList.toggle("showmenu")
     if (!showing) {
@@ -32,6 +40,7 @@ menuToggle.addEventListener("click", function(){
     }
 
 })
+
 
 const swiper = new Swiper('.swiper-1', {
   // Optional parameters

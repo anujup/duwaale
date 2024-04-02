@@ -18,9 +18,12 @@
                 <img class = "logo" width = "40px" height= "40px" src="./icons/du.png" alt="">
                 <h2>Du Waale</h2>
                 <div class="links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contacts</a>
+                    <a href="./index.html" onclick="return myFunction()">Home</a>
+                    <a href="#footer" onclick="return myFunction()">About</a>
+                    <a href="#notes" onclick="myFunction()">Notes</a>
+                    <a href="#syllabus" onclick="myFunction()">Syllabus</a>
+                    <a href="#team" onclick="myFunction()">Our team</a>
+                    <a href="#footer" onclick="myFunction()">Contacts</a>
                     <a href="./pages/store/store.html" id = "store-link">Store <i class = "fa fa-store"></i></a>
                 </div>
                 <i class = "fa fa-bars" style= "display:none"></i>
@@ -81,7 +84,7 @@
                     <h4>notes</h4>
                     <a href="./pages/store/store.html">view all</a>
                 </div>
-                <div class="items-wrapper">
+                <div class="items-wrapper" id="notes">
                     <div class="item">
                         <img src="./notes-bg/design-thinking.jpg" alt="">
                         <div class="content">
@@ -160,55 +163,7 @@
                 </div>
             </div>
 
-
-            <div class="reviews">
-                <h4 class="review-heading">What students say about us!</h4>
-                <div class="review-wrapper">
-                    <div class="review">
-                        <p>There are many groups and communities exist in Delhi University, but DuWaale is one of the best student community ever !</p>
-                        <div class="account-info">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BO6iVpBtnyBpUt3AOmsagHGeGs3gLKQoGaX_6kscJP3Gvt-lcTFjyuI&s" alt="">
-                            <div class="review-profile">
-                                <h3 class="account-name">Akshay Khanna</h3>
-                                <p class="accountinfo">Student</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review">
-                        <p>I find DuWaale in last Semester, they provide content, notifications and events information which was Awesome.</p>
-                        <div class="account-info">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRplfEchzctxJ7ihk2Z9d6uJREu4U9_n0eGKy-r4ktlieDoEuh_wXsxZAQ&s" alt="">
-                            <div class="review-profile">
-                                <h3 class="account-name">Vanshika Sahu</h3>
-                                <p class="accountinfo">student</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review">
-                        <p>I have read one of the notes prepared By DuWaale in last Semester Exam. It help me to learn concepts and theory part easily and quickly.</p>
-                        <div class="account-info">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJmIP3F6h9Ai-L4vgssUr65xNQIbrXkJfBlTdJKJUgqrWMUaf7jhPBkI&s" alt="">
-                            <div class="review-profile">
-                                <h3 class="account-name">Praveen Sahu</h3>
-                                <p class="accountinfo">student</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="review">
-                        <p>I have followed Social Media accounts of DuWaale. Telegram channel has helped me alot in finding PYQs.</p>
-                        <div class="account-info">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKButTPjuFurkp6UsA3V-assGRkhS591SyROgSM9MnOa_J8od_gvxj3Y&s" alt="">
-                            <div class="review-profile">
-                                <h3 class="account-name">Hitesh Mishra</h3>
-                                <p class="accountinfo">student</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="team-swiper swiper">
+            <div class="team-swiper swiper" id = "team">
             <h4 class="team-heading">Our hardworking team</h4>
                 <div class="team-wrapper swiper-wrapper">
                     <div class="swiper-slide"> 
@@ -312,10 +267,59 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
+
+            <div class="reviews">
+                <h4 class="review-heading">What students say about us!</h4>
+                <div class="review-wrapper">
+                    <div class="review">
+                        <p>There are many groups and communities exist in Delhi University, but DuWaale is one of the best student community ever !</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BO6iVpBtnyBpUt3AOmsagHGeGs3gLKQoGaX_6kscJP3Gvt-lcTFjyuI&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Akshay Khanna</h3>
+                                <p class="accountinfo">Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>I find DuWaale in last Semester, they provide content, notifications and events information which was Awesome.</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRplfEchzctxJ7ihk2Z9d6uJREu4U9_n0eGKy-r4ktlieDoEuh_wXsxZAQ&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Vanshika Sahu</h3>
+                                <p class="accountinfo">student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>I have read one of the notes prepared By DuWaale in last Semester Exam. It help me to learn concepts and theory part easily and quickly.</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJmIP3F6h9Ai-L4vgssUr65xNQIbrXkJfBlTdJKJUgqrWMUaf7jhPBkI&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Praveen Sahu</h3>
+                                <p class="accountinfo">student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>I have followed Social Media accounts of DuWaale. Telegram channel has helped me alot in finding PYQs.</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKButTPjuFurkp6UsA3V-assGRkhS591SyROgSM9MnOa_J8od_gvxj3Y&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Hitesh Mishra</h3>
+                                <p class="accountinfo">student</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </main>
     
 
-        <footer>
+        <footer id = "footer">
             <div class="comment">
                 <p>share your thaughts</p>
                 <input type="text" name="" value="">
