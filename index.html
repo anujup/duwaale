@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DuWalle</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <img class = "logo" width = "40px" height= "40px" src="./icons/Du.png" alt="">
+                <h2>Du Waale</h2>
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contacts</a>
+                    <a href="./pages/store/store.html" id = "store-link">Store <i class = "fa fa-store"></i></a>
+                </div>
+                <i class = "fa fa-bars" style= "display:none"></i>
+            </div>
+
+            <div class="swiper-1 swiper">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="./start/1.png" alt="">
+                    <img class="swiper-slide" src="./start/2.png" alt="">
+                    <img class="swiper-slide" src="./start/3.png" alt="">
+                    <img class="swiper-slide" src="./start/4.png" alt="">
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </header>
+
+
+        <main>
+            <div class="hero-section">
+                <p>College <br>is not only for study <span>it makes you ready </span>to Real World</p>
+                <img src="./page-images/hero-section-image.png" alt="">
+            </div>
+
+            <div class="page-sections">
+                <div class="box" onclick = "location.href='./pages/store/store.html';">
+                    <h3>Notes & PYQ</h3>
+                    <div class="box-content">
+                       <p>Get the study material acording new NEP syllabus</p>
+                       <img src="./icons/notes.png" alt="">
+                    </div>
+                </div>
+                <div class="box" onclick = "location.href='./pages/store/store.html';">
+                    <h3>Store</h3>
+                    <div class="box-content">
+                       <p>Get syllabus, Notes, PyQ, notebooks and many more at our store</p>
+                       <img src="./icons/store.png" alt="">
+                    </div>
+                </div>
+                <div class="box" onclick = "location.href='./pages/event/event.html';">
+                    <h3>Events & Competitions</h3>
+                    <div class="box-content">
+                       <p>Explore the exciting opportunity for 90+ colleges of Delhi University</p>
+                       <img src="./icons/events.png" alt="">
+                    </div>
+                </div>
+                <div class="box" onclick = "location.href='./pages/update/update.html';">
+                    <h3>Updates & Notification</h3>
+                    <div class="box-content">
+                       <p>Get the study material acording new NEP syllabus</p>
+                       <img src="./icons/updates.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="items-section-heading">
+                    <h4>notes</h4>
+                    <a href="./pages/store/store.html">view all</a>
+                </div>
+                <div class="items-wrapper">
+                    <div class="item">
+                        <img src="./notes-bg/design-thinking.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">Design Thinking</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./notes-bg/blockchain.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">Introduction to Blockchain</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./notes-bg/brand-management.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">Brand Management</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./notes-bg/culture-and-communication.jpg" alt="">
+                        <div class="content">
+                            <p class="item-name">culture-and-communication</p>
+                            <div class="stars">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="price">
+                                <p class="actual-price"> <s>300</s></p>
+                                <p class="sale-price">210</p>
+                                <p class="off">30% off</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="reviews">
+                <h4 class="review-heading">What students say about us!</h4>
+                <div class="review-wrapper">
+                    <div class="review">
+                        <p>There are many groups and communities exist in Delhi University, but DuWaale is one of the best student community ever !</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_BO6iVpBtnyBpUt3AOmsagHGeGs3gLKQoGaX_6kscJP3Gvt-lcTFjyuI&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Akshay Khanna</h3>
+                                <p class="accountinfo">Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>I find DuWaale in last Semester, they provide content, notifications and events information which was Awesome.</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRplfEchzctxJ7ihk2Z9d6uJREu4U9_n0eGKy-r4ktlieDoEuh_wXsxZAQ&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Vanshika Sahu</h3>
+                                <p class="accountinfo">student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>I have read one of the notes prepared By DuWaale in last Semester Exam. It help me to learn concepts and theory part easily and quickly.</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZJmIP3F6h9Ai-L4vgssUr65xNQIbrXkJfBlTdJKJUgqrWMUaf7jhPBkI&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Praveen Sahu</h3>
+                                <p class="accountinfo">student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p>I have followed Social Media accounts of DuWaale. Telegram channel has helped me alot in finding PYQs.</p>
+                        <div class="account-info">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKButTPjuFurkp6UsA3V-assGRkhS591SyROgSM9MnOa_J8od_gvxj3Y&s" alt="">
+                            <div class="review-profile">
+                                <h3 class="account-name">Hitesh Mishra</h3>
+                                <p class="accountinfo">student</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="team-swiper swiper">
+            <h4 class="team-heading">Our hardworking team</h4>
+                <div class="team-wrapper swiper-wrapper">
+                    <div class="swiper-slide"> 
+                        <div class="team-profile">
+                            <img class="team-photo" src="https://media.licdn.com/dms/image/D4E03AQEQIg9Tgls-IA/profile-displayphoto-shrink_400_400/0/1667441414121?e=2147483647&v=beta&t=iAuzihUPtoNKwQtmbLI4Pk28R-6flkvJzd8xNpSlrZE" alt="">
+                            <h3 class="team-name">Anuj Upadhyay</h3>
+                            <p class="team-role">Web Development team head</p>
+                            <p class = "team-disc">Designed and managing Duwalle web app</p>
+                        </div>
+                        <div class="team-brief">
+                            <div class="team-social">                             
+                               <i class = "fa-brands fa-instagram"></i>
+                               <i class = "fa-brands fa-linkedin"></i>
+                               <i class = "fa fa-envelope"></i>
+                               <i class = "fa-brands fa-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <div class="team-profile">
+                            <img class="team-photo" src="https://media.licdn.com/dms/image/D4E03AQEQIg9Tgls-IA/profile-displayphoto-shrink_400_400/0/1667441414121?e=2147483647&v=beta&t=iAuzihUPtoNKwQtmbLI4Pk28R-6flkvJzd8xNpSlrZE" alt="">
+                            <h3 class="team-name">Anuj Upadhyay</h3>
+                            <p class="team-role">Web Development team head</p>
+                            <p class = "team-disc">Designed and managing Duwalle web app</p>
+                        </div>
+                        <div class="team-brief">
+                            <div class="team-social">                             
+                               <i class = "fa-brands fa-instagram"></i>
+                               <i class = "fa-brands fa-linkedin"></i>
+                               <i class = "fa fa-envelope"></i>
+                               <i class = "fa-brands fa-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <div class="team-profile">
+                            <img class="team-photo" src="https://media.licdn.com/dms/image/D4E03AQEQIg9Tgls-IA/profile-displayphoto-shrink_400_400/0/1667441414121?e=2147483647&v=beta&t=iAuzihUPtoNKwQtmbLI4Pk28R-6flkvJzd8xNpSlrZE" alt="">
+                            <h3 class="team-name">Anuj Upadhyay</h3>
+                            <p class="team-role">Web Development team head</p>
+                            <p class = "team-disc">Designed and managing Duwalle web app</p>
+                        </div>
+                        <div class="team-brief">
+                            <div class="team-social">                             
+                               <i class = "fa-brands fa-instagram"></i>
+                               <i class = "fa-brands fa-linkedin"></i>
+                               <i class = "fa fa-envelope"></i>
+                               <i class = "fa-brands fa-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <div class="team-profile">
+                            <img class="team-photo" src="https://media.licdn.com/dms/image/D4E03AQEQIg9Tgls-IA/profile-displayphoto-shrink_400_400/0/1667441414121?e=2147483647&v=beta&t=iAuzihUPtoNKwQtmbLI4Pk28R-6flkvJzd8xNpSlrZE" alt="">
+                            <h3 class="team-name">Anuj Upadhyay</h3>
+                            <p class="team-role">Web Development team head</p>
+                            <p class = "team-disc">Designed and managing Duwalle web app</p>
+                        </div>
+                        <div class="team-brief">
+                            <div class="team-social">                             
+                               <i class = "fa-brands fa-instagram"></i>
+                               <i class = "fa-brands fa-linkedin"></i>
+                               <i class = "fa fa-envelope"></i>
+                               <i class = "fa-brands fa-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <div class="team-profile">
+                            <img class="team-photo" src="https://media.licdn.com/dms/image/D4E03AQEQIg9Tgls-IA/profile-displayphoto-shrink_400_400/0/1667441414121?e=2147483647&v=beta&t=iAuzihUPtoNKwQtmbLI4Pk28R-6flkvJzd8xNpSlrZE" alt="">
+                            <h3 class="team-name">Anuj Upadhyay</h3>
+                            <p class="team-role">Web Development team head</p>
+                            <p class = "team-disc">Designed and managing Duwalle web app</p>
+                        </div>
+                        <div class="team-brief">
+                            <div class="team-social">                             
+                               <i class = "fa-brands fa-instagram"></i>
+                               <i class = "fa-brands fa-linkedin"></i>
+                               <i class = "fa fa-envelope"></i>
+                               <i class = "fa-brands fa-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <div class="team-profile">
+                            <img class="team-photo" src="https://media.licdn.com/dms/image/D4E03AQEQIg9Tgls-IA/profile-displayphoto-shrink_400_400/0/1667441414121?e=2147483647&v=beta&t=iAuzihUPtoNKwQtmbLI4Pk28R-6flkvJzd8xNpSlrZE" alt="">
+                            <h3 class="team-name">Anuj Upadhyay</h3>
+                            <p class="team-role">Web Development team head</p>
+                            <p class = "team-disc">Designed and managing Duwalle web app</p>
+                        </div>
+                        <div class="team-brief">
+                            <div class="team-social">                             
+                               <i class = "fa-brands fa-instagram"></i>
+                               <i class = "fa-brands fa-linkedin"></i>
+                               <i class = "fa fa-envelope"></i>
+                               <i class = "fa-brands fa-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-control">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </main>
+    
+
+        <footer>
+            <div class="comment">
+                <p>share your thaughts</p>
+                <input type="text" name="" value="">
+                <button type="submit">post <i class = "fa fa-arrow-up"></i></button>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+            <p><i class="fa fa-copyright"></i> Copyright 2024 all rights reserved</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src= "./script.js"></script>
+    </body>
+</html>
